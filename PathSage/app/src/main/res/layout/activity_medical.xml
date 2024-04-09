@@ -1,0 +1,210 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Medical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/acme"
+            android:text="DOCTOR OF MEDICINE"
+            android:textColor="@color/lavender"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/tx1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:text="@string/medical"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:justificationMode="inter_word"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            >
+
+            <!-- Row 1 -->
+            <TableRow>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:text="Course Level"
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:text="Undergraduate/Postgraduate"
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+            </TableRow>
+
+            <!-- Row 2 -->
+            <TableRow>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:text="Duration"
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:text="5.5 - 6 years"
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="195dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:text="Specializations"
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:text="Various specializations like General Medicine, Pediatrics, Surgery, etc."
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:text="Eligibility"
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:text="Bachelor's degree in Science with Biology, Physics, and Chemistry"
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:text="Admission Process"
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:text="Through Entrance Exams like NEET, AIIMS, etc."
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:text="Average Course Fee"
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:text="Government Medical Colleges- INR 10,000 to 50,000 per annum\nPrivate Medical Colleges- INR 5 to 25 Lacs per annum"
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:text="Average Starting Salary"
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:text="INR 6 to 12 LPA"
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/career_prospects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:text="Career Prospects"
+            android:textColor="@color/lavender"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/career_prospects_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="20dp" />
+
+
+    </LinearLayout>
+</ScrollView>

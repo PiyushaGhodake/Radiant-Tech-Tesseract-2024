@@ -1,0 +1,192 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Otherpcb">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/acme"
+            android:text="BACHELOR OF SCIENCE"
+            android:textColor="@color/lavender"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/tx1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:text="@string/bsc_pcm_info"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:justificationMode="inter_word"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:layout_margin="5dp">
+
+            <!-- Row 1 -->
+            <TableRow>
+                <TextView
+                    android:text="Course Level"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="Undergraduate"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+            <!-- Row 2 -->
+            <TableRow>
+                <TextView
+                    android:text="Duration"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="3 years"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Examination Type"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="Semester System"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Eligibility"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="10+2 with Physics, Chemistry, and Mathematics"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Admission Process"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="Through Entrance Exams or Merit-based"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Average Course Fee"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="Varies by institution and specialization"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Average Starting Salary"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="Varies by specialization and industry"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/career_prospects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:text="Career Prospects"
+            android:textColor="@color/lavender"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/career_prospects_description3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "384461546866",
+    "firebase_url": "https://careerguideapp-c29e0-default-rtdb.firebaseio.com",
+    "project_id": "careerguideapp-c29e0",
+    "storage_bucket": "careerguideapp-c29e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384461546866:android:3ea80edf4b0b9f0cc529eb",
+        "android_client_info": {
+          "package_name": "com.example.loginphone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRbkxuyMge6jE_SGN8YpRqzhnTpqOOuD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384461546866:android:665679f3d72b972fc529eb",
+        "android_client_info": {
+          "package_name": "com.example.pathsage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRbkxuyMge6jE_SGN8YpRqzhnTpqOOuD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

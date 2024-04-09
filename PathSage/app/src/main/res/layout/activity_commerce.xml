@@ -1,0 +1,154 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Commerce">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/acme"
+            android:text="COMMERCE STREAM"
+            android:textColor="@color/lavender"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/tx1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:text="@string/commerce"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:justificationMode="inter_word"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:layout_margin="5dp">
+
+            <!-- Row 1 -->
+            <TableRow>
+                <TextView
+                    android:text="B.Com."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="Bachelor of Commerce.\nCourse duration \nis 3 yrs."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+            <!-- Row 2 -->
+            <TableRow>
+                <TextView
+                    android:text="B.B.A."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="Bachelor of Business Administration.\nCourse duration \nis 3 yrs."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="B.M.S."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="Bachelor of Management Studies.\nCourse duration \nis 3 yrs."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="B.C.A."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="Bachelor of Computer Applications.\nCourse duration \nis 3 yrs."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="B.Com. (Hons.)"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="Bachelor of Commerce (Honours).\nCourse duration \nis 3 yrs."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="B.F.Tech."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="Bachelor of Fashion Technology.\nCourse duration \nis 4 yrs."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

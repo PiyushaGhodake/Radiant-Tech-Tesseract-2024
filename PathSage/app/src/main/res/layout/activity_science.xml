@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Image button 1 (PCM) -->
+    <ImageButton
+        android:id="@+id/btn_pcm"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@id/btn_pcmb"
+        android:src="@drawable/pcm"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:contentDescription="PCM Button" />
+
+    <!-- Image button 2 (PCMB) -->
+    <ImageButton
+        android:id="@+id/btn_pcmb"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:contentDescription="PCMB Button"
+        android:scaleType="fitXY"
+        android:src="@drawable/pcmb" />
+
+    <!-- Image button 3 (PCB) -->
+    <ImageButton
+        android:id="@+id/btn_pcb"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/btn_pcmb"
+        android:src="@drawable/pcb"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:contentDescription="PCB Button" />
+
+</RelativeLayout>

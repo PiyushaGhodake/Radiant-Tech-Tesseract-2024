@@ -1,0 +1,139 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".PCMBCareerOptions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/acme"
+            android:text="PCMB Career Options"
+            android:textColor="@color/lavender"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/tx1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:text="@string/pcmb_career_options"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:justificationMode="inter_word"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:layout_margin="5dp">
+
+            <!-- Row 1 -->
+            <TableRow>
+                <TextView
+                    android:text="Career Option"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="Description"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+            <!-- Row 2 -->
+            <TableRow>
+                <TextView
+                    android:text="Medicine"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="Study medicine and become a doctor. Requires further education in medical school."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+            <!-- Row 3 -->
+            <TableRow>
+                <TextView
+                    android:text="Engineering"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="Pursue engineering in various disciplines like mechanical, civil, computer science, etc."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+            <!-- Row 4 -->
+            <TableRow>
+                <TextView
+                    android:text="Biotechnology"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="Explore fields like genetic engineering, pharmaceuticals, environmental sciences, etc."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+            <!-- Row 5 -->
+            <TableRow>
+                <TextView
+                    android:text="Research Scientist"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"/>
+                <TextView
+                    android:text="Conduct research in various scientific fields such as biology, chemistry, etc."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/abhaya_libre_medium"
+                    />
+            </TableRow>
+
+            <!-- Add more rows for additional career options -->
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>
